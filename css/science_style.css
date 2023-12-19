@@ -1,0 +1,38 @@
+@import url("button.css");
+body {
+    background: #e2f0f8;
+    padding: 15px;
+    margin: 5px;
+    font-family: 'Playfair', sans-serif;
+    color: #82d1f6;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+}
+
+.spacer {
+    flex: 0.08; /* Добавляем отступ между текстом */
+}
+img {
+    float: left;
+    margin-right: 18px; /* отступ между картинкой и текстом */
+  }
+
+  
+  p {
+    margin-top: 45; /* убрать отступ сверху */
+  } 
+  .fig {
+    float: right; /* Обтекание картинки по левому краю */
+    margin-right: 18px; /* отступ между картинкой и текстом */
+   }

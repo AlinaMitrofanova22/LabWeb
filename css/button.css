@@ -1,0 +1,16 @@
+.btn {
+    display: flex;
+    align-items: center;
+    height: 10vh; 
+    justify-content: space-around;
+    background-color:#95d2ee;
+       padding: 15px;
+    margin: 15px;
+    font-family:'Playfair', sans-serif ;
+    color: #95d2ee;
+    font-size: 25px;
+    line-height: 40px;
+    min-width: 450px;
+
+  }
+  .btn:hover {opacity: 0.6}

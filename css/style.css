@@ -1,0 +1,95 @@
+body {
+    background: #e2f0f8;
+    padding: 15px;
+    margin: 5px;
+    font-family: 'Playfair', sans-serif;
+    color: #82d1f6;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+
+.content {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background: #e2f0f8;
+    font-family: 'Playfair', sans-serif;
+    color: #3f88a9;
+           
+}
+
+
+.info {
+   width: 63%;
+   /* height: 500px; */
+   border:5px solid #98cee7;
+   padding: 30px  10px 75px 30px;
+   margin:15px 30px 5px 70px;
+   position: relative;
+   /* opacity: 1; */
+} 
+.info::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: contain;
+    background-image: url('../img/lina.jpg');
+    opacity: 0.2; 
+}
+.title {
+    position: relative;
+    
+  }
+
+.photo{
+    width: 30%;
+    height: 500px;
+    border: #82d1f6;
+    padding: 10px 10px 10px 10px ;
+    margin: 5px 5px 70px 10px;
+    position: relative;
+}
+
+
+
+.buttons {
+    text-align: center;
+}
+
+.buttons .btn {
+    margin: 5px;
+    display: inline-block;
+}
+
+.buttons .btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons .btn:hover {
+    opacity: 0.6;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-around;
+    background-color: #95d2ee;
+    padding: 15px;
+    margin: 15px;
+    font-family: 'Playfair', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    min-width: 450px;
+}
+
+
+
